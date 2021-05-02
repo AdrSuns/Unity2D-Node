@@ -26,6 +26,7 @@ Works mainly through delegate
 All the methods are static
 
 Delegates:
+
     public delegate void Action();
     public delegate void Func(Node node);
     public delegate bool Exit();
@@ -33,15 +34,16 @@ Delegates:
     public delegate float Rotate(float t);
     
 Functions:
+        
     public static Event callFunc(Action action, float delay = 0f, int times = 1)
-        Invokes a function in /delay/ for /times/ times, where the action is usually a lambda.  
+        //Invokes a function in /delay/ for /times/ times, where the action is usually a lambda.  
         
     public static Event delay(float time)
-        Do nothing for /time/, as an assistance for sequence().
+        //Do nothing for /time/, as an assistance for sequence().
     
     public static Event setVelocity(Vector2 velocity, float delay = 0f)
     public static Event setVelocity(Move move, bool resetTick = false, float delay = 0f)
-        Resets the volecity.
+        //Resets the volecity.
 
 III.Conditon:
 
