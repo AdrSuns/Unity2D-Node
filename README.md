@@ -7,8 +7,11 @@ I.Node
 
 Inherits from Monobehavior
 
-How to get a Node:
+How to get a Node:\n
 1.Signify a Unity class inheriting from Node.
+    
+    public class GameControl : Node
+    
 2.Attach the script to an object to allow single uses.  
 
 What it can do:
