@@ -12,7 +12,7 @@ How to get a Node:
     
     public class GameControl : Node
     
-2.Attach the script to an object to allow single uses.  
+2.Attach the script to an object for single uses.  
 
     Node node = Instantiate(prefab, position, Quaternion.Identity).GetComponent<Node>();
 
