@@ -7,12 +7,14 @@ I.Node
 
 Inherits from Monobehavior
 
-How to get a Node:\n
+How to get a Node:
 1.Signify a Unity class inheriting from Node.
     
     public class GameControl : Node
     
 2.Attach the script to an object to allow single uses.  
+
+    Node node = Instantiate(prefab, position, Quaternion.Identity).GetComponent<Node>();
 
 What it can do:
 1.Run Actions like Action in cocos2dx.
