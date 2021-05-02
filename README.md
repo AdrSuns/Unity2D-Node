@@ -18,7 +18,7 @@ How to get a Node:
 
 What it can do:
 1.Run Actions like Action in cocos2dx.
-2.Invoke functions as the standard "Invoke" does but allows parameters for functions.Also works for lambdas.
+2.Invoke functions as the standard "Invoke" does but allows parameters for functions, which also works for lambdas.
 
 How it works:
   The actions and functions would be sealed in the Event class(defined as follows).
