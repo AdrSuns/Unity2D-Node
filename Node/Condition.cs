@@ -33,9 +33,9 @@ public class Condition
         }
         return false;
     }
-    public void updateTime()
+    public void updateTime(bool useRealTime = false)
     {
-        localTime += Time.deltaTime;
+        localTime += (useRealTime) ? GameControl.instance.realDeltaTime : Time.deltaTime;
     }
     public bool delete()
     {
